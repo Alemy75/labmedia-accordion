@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Document</title>
+    </head>
+    <body class="shadow">
+        <header class="header">
+            <div class="wrapper">
+                <button class="header-button header-button__button">
+                    <div>
+                        <div class="line line_red"></div>
+                    </div>
+                    <div>
+                        <div class="line line_red"></div>
+                        <div class="line line_green"></div>
+                    </div>
+                    <div><div class="line line_green"></div></div>
+                </button>
+                Аккордион
+            </div>
+            <div class="lines header__lines">
+                <span class="line line_thin line_red"></span>
+
+                <span class="line line_thin line_green"></span>
+            </div>
+        </header>
+
+        <section class="content">
+            <div
+                class="line line_red line_thick line_progress"
+                style="width: 386px"
+            ></div>
+            <div class="wrapper wrapper_block">
+                <h1>Аккордион</h1>
+                <div class="content__wrapper">
+                    <article class="accordion">
+                        <div class="accordion__head">
+                            <h2>Таб 1</h2>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                            >
+                                <mask
+                                    id="mask0_2_33"
+                                    style="mask-type:alpha"
+                                    maskUnits="userSpaceOnUse"
+                                    x="4"
+                                    y="10"
+                                    width="24"
+                                    height="13"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M4.64453 21.6484L5.35164 22.3555L15.9981 11.709L26.6445 22.3555L27.3516 21.6484L15.9981 10.2948L4.64453 21.6484Z"
+                                        fill="white"
+                                    />
+                                </mask>
+                                <g mask="url(#mask0_2_33)">
+                                    <rect
+                                        width="32"
+                                        height="32"
+                                        transform="matrix(1 0 0 -1 0 32)"
+                                        fill="#E9262D"
+                                    />
+                                </g>
+                            </svg>
+                        </div>
+                        <ul class="accordion__content">
+                            <li>
+                                <span class="marker marker_green">-</span
+                                >Элемент 1
+                            </li>
+                            <li>
+                                <span class="marker marker_green">-</span
+                                >Элемент 1
+                            </li>
+                            <li>
+                                <span class="marker marker_green">-</span
+                                >Элемент 1
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="accordion">
+                        <div class="accordion__head">
+                            <h2>Таб 2</h2>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="32"
+                                height="32"
+                                viewBox="0 0 32 32"
+                                fill="none"
+                            >
+                                <mask
+                                    id="mask0_2_33"
+                                    style="mask-type:alpha"
+                                    maskUnits="userSpaceOnUse"
+                                    x="4"
+                                    y="10"
+                                    width="24"
+                                    height="13"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M4.64453 21.6484L5.35164 22.3555L15.9981 11.709L26.6445 22.3555L27.3516 21.6484L15.9981 10.2948L4.64453 21.6484Z"
+                                        fill="white"
+                                    />
+                                </mask>
+                                <g mask="url(#mask0_2_33)">
+                                    <rect
+                                        width="32"
+                                        height="32"
+                                        transform="matrix(1 0 0 -1 0 32)"
+                                        fill="#E9262D"
+                                    />
+                                </g>
+                            </svg>
+                        </div>
+                        <ul class="accordion__content">
+                            <li>
+                                <span class="marker marker_green">-</span
+                                >Элемент 1
+                            </li>
+                            <li>
+                                <span class="marker marker_green">-</span
+                                >Элемент 1
+                            </li>
+                            <li>
+                                <span class="marker marker_green">-</span
+                                >Элемент 1
+                            </li>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <button id="button" class="button button_disabled content__button">
+                Продолжить
+            </button>
+            <div class="lines content__lines">
+                <span class="line line_thick line_red"></span>
+
+                <span class="line line_thick line_green"></span>
+            </div>
+        </section>
+        <script src="../index.js"></script>
+    </body>
+</html>
